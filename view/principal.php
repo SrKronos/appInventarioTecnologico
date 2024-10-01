@@ -135,7 +135,7 @@ if (!isset($_SESSION['usuario']) || empty($_SESSION['usuario']['nombre']) || emp
 
 
             // Cargar contenido inicial
-            loadContent('administrar_movimientos.php');
+            loadContent('blank.php');
         });
     </script>
 </body>
